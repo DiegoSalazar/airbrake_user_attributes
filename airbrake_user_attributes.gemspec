@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'airbrake_user_attributes/version'
 
 Gem::Specification.new do |s|
-  s.name = 'airbrake_user_attributes'
+  s.name = 'airbrake_user_attributes_rails5'
   s.authors = ['Nathan Broadbent', 'Diego Salazar']
   s.email = 'salazar@kipusystems.com'
   s.homepage = 'https://github.com/DiegoSalazar/airbrake_user_attributes_rails5'
