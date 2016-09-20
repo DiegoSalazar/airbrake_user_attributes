@@ -4,10 +4,10 @@ require 'airbrake_user_attributes/version'
 
 Gem::Specification.new do |s|
   s.name = 'airbrake_user_attributes'
-  s.authors = ['Nathan Broadbent']
-  s.email = 'nathan.f77@gmail.com'
-  s.homepage = 'http://cloudfuji.com'
-  s.summary = 'Send Airbrake notifications with user attributes'
+  s.authors = ['Nathan Broadbent', 'Diego Salazar']
+  s.email = 'salazar@kipusystems.com'
+  s.homepage = 'https://github.com/DiegoSalazar/airbrake_user_attributes_rails5'
+  s.summary = 'Update to use Airbrake v5. Send Airbrake notifications with user attributes'
   s.description = 'Adds information about the current user to error reports'
   s.files = `git ls-files`.split("\n")
   s.version = AirbrakeUserAttributes::VERSION
@@ -22,6 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency("sham_rack",     "~> 1.3.0")
   s.add_development_dependency("shoulda",       "~> 2.11.3")
 
-  s.add_dependency 'airbrake',                  '~> 3.1.0'
-
+  s.add_dependency 'airbrake',                  '~> 5.5'
 end
